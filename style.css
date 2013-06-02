@@ -1,0 +1,10 @@
+@charset "UTF-8";/*
+Theme Name:     Planet3.0 Blogs
+Theme URI:      http://lanternlabs.ca
+Description:    Version 3 of the Planet3.0 Blogs theme
+Author:         Dan Moutal
+Template:       p3wp                             
+Version:        3.0
+*/
+
+@import url("../p3wp/style.css");
