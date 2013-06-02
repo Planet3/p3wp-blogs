@@ -11,7 +11,7 @@ get_header(); ?>
 	<div id="primary" class="content-area" role="main">
 		<div class="row">
 
-			<div class="posts-area large-12 columns">
+			<div class="posts-area blogs large-12 columns">
 				<?php if ( have_posts() ) : ?>
 					<div id="blogs">
 						<ul class="large-block-grid-3">
@@ -20,7 +20,7 @@ get_header(); ?>
 							<?php endwhile; ?>
 						</ul><!-- .large-block-grid-3 -->
 					</div><!-- #blogs -->
-					<?php wp_reset_postdata(); ?>
+					<?php planet3_0_content_nav( 'nav-below' ); ?>
 				<?php endif; ?>
 			</div><!-- posts-area large-6 columns -->
 
