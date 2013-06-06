@@ -8,3 +8,9 @@ Version:        3.0
 */
 
 @import url("../p3wp/style.css");
+
+.entry-meta {
+    padding: 0;
+    margin: 0;
+    font-size: 0.8em;
+}
